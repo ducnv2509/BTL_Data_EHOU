@@ -1,0 +1,29 @@
+# Bỏ các file object (*.o) và file thực thi
+*.o
+*.out
+*.exe
+HoaDonApp
+
+# File tạm của hệ thống
+.DS_Store
+
+# Bỏ thư mục build nếu có
+/build/
+/bin/
+/dist/
+
+# Nếu dùng Visual Studio Code
+.vscode/
+
+# Nếu dùng Makefile
+*.d
+
+# Nếu dùng CMake (tùy chọn)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Logs hoặc files tạm
+*.log
+.vscode
