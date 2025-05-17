@@ -1,0 +1,3 @@
+Make all
+#run
+./HoaDonApp
